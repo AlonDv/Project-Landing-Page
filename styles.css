@@ -83,60 +83,105 @@ a,
   font-weight: bold;
 }
 
-.cards_section{
-    text-align: center;
-    padding-bottom: 100px;
-    
+.cards_section {
+  text-align: center;
+  padding-bottom: 100px;
 }
 
-figcaption{
-    padding-top: 10px;
+figcaption {
+  padding-top: 10px;
 }
 
-.cards_section h2{
-    padding-bottom: 20px;
-    font-weight: 900;
-    font-size: 36px;
+.cards_section h2 {
+  padding-bottom: 20px;
+  font-weight: 900;
+  font-size: 36px;
 }
-.cards{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap:wrap;
-}
-
-
-.card{
-    text-align: center;
-    color:gray ;
-    width:200px;
-    margin: 0px;
-
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
-.card div{
-    border: solid 4px #3882f6;
-    width: auto;
-    height: 200px;
-    border-radius: 10px;
+.card {
+  text-align: center;
+  color: gray;
+  width: 200px;
+  margin: 0px;
 }
 
-.quote_section{
-    background-color: #E5E7EB;
-    padding: 40px 100px;
-    box-sizing: border-box;
-    
+.card div {
+  border: solid 4px #3882f6;
+  width: auto;
+  height: 200px;
+  border-radius: 10px;
 }
 
-.quote_section .quote{
-    font-style: italic;
-    color: #1f2937;
-    font-size: 36px;
-    font-weight: 300;
+.quote_section {
+  background-color: #e5e7eb;
+  padding: 40px 100px;
+  box-sizing: border-box;
 }
 
-.quote_subtext{
-    text-align: end;
-    color: black;
-    font-weight:bold; 
+.quote_section .quote {
+  font-style: italic;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.quote_subtext {
+  text-align: end;
+  color: black;
+  font-weight: bold;
+}
+
+.call_to_action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.blue_container {
+  padding: 30px 20px 30px 40px;
+  background-color: #3882f6;
+  width: 800px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px  ;
+}
+
+.cta_button {
+  border: 2px solid white;
+  background-color: #3882f6;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+.blue_container div {
+  flex: 1;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p1,
+.p2 {
+  margin: 0px;
+}
+.blue_container .p1 {
+  color: white;
+  font-weight: bold;
+}
+
+.p2 {
+  font-size: 15px;
+  color: #e5e7eb;
 }
