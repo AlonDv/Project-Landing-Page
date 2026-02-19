@@ -151,7 +151,7 @@ figcaption {
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
-  gap: 20px  ;
+  gap: 20px;
 }
 
 .cta_button {
@@ -184,4 +184,14 @@ figcaption {
 .p2 {
   font-size: 15px;
   color: #e5e7eb;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  padding-top: 20px;
+  padding-bottom: 20px; ;
 }
